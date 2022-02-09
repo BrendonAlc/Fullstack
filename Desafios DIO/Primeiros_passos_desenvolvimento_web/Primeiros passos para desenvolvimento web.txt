@@ -1,0 +1,126 @@
+O que é a internet?
+
+	Qual foi o primeiro dominio criado?
+		O primeiro domínio foi o symbolics.com em 1985, por um fabricante de computadores, em Massachusetts. Nesta época, qualquer um poderia registrar um domínio gratuitamente.
+
+
+	E o primeiro blog?
+		Coincidência ou não, o primeiro blog da internet foi criado por um brasileiro. Em 1994, o cientista do 	MIT Media Lab, Claudio Pinhanez, criou um site chamado “Open Diary”.
+	
+
+	Qual foi a primeira compra feita pela internet?
+		E o primeiro produto a ser vendido foi um CD do cantor Sting, em 11 de agosto de 1994. O comprador foi um homem chamado Phil Brandenberger, morador da Philadelphia. No caso, o álbum era Ten 
+	Summoner's Tales, de 1993.
+
+
+	Qual foi o site mais antigo em atividade?
+		Em 1º de janeiro de 1985, a NORDUnet, uma espécie de agência internacional que conecta as redes nacionais de pesquisa e de educação dos países nórdicos, criou o nordu.net. A entidade, sediada 
+	na Dinamarca, segue na ativa —e o site também. O primeiro "pontocom", por sua vez, foi o symbolics. com, de 15 de março de 1985
+
+
+
+Informações de termos chave
+
+HTML: Linguagem de marcação, não é linguagem de programação.
+Link: É uma ligação.
+URL: É uma chamada para site, chamada, etc.
+Keylogger: software malicioso que pode gravar o que a pessoa digita.
+Phishing: Software que pode gerar fraude (Ex: confirmações de senha, boletos, etc...).
+Cyber(Bullying): Ameaças realizadas de forma virtual.
+Cookies: Pequenos registros deixados no seu computador pelas pesquisas nele realizada
+Firewall: Forma de segurança (parede), impedir acesso indevido.
+Hacker: Pessoa para encontrar vulnerabilidade em sistemas.
+IP: Endereço
+Pop-up: Caixinhas que aparecem nos sites quando entramos.
+
+
+**Como funciona a internet**
+
+O que são redes?
+	
+	
+Backbone: Espinha dorsal, Costela, existem poucas pelo mundo. 
+Provedor de acesso: Empresas que tem o serviço de internet.
+
+caminho inverso: www -> Site para humanos entender.
+		 DNS -> Servidor que transforma o nome acima em número.
+		 IP  -> O número que é transformado pelo DNS é o IP.
+		 Classes de redes -> A,B,C e existe algumas outras.
+		 127.0.0.1 -> local host (endereço do computador).
+
+
+**TCP/IP - Portas - Roteadores - Switches e Modens**
+
+TCP/IP: Dados não podem ir bagunçado quando recebido pelo destino.
+	- 4 Camadas para iniciar a transmissão.
+		1. Física (Placa de rede)
+		2. Rede (IP)
+		3. Transporte (TCP, UDP)
+		4. Aplicação (FTP, SMTP, HTTP)
+
+	UDP: Rapido, não confiavel, carro do ovo, livestream.
+	TCP: Votado a conexão, handshake, integridade e ordem dos dados, aplicativo e mensagens de texto.
+
+Portas: Por onde dados sairão e chegarão
+	20: FTP
+	22: SSH
+	25: SMTP
+	53: DNS
+	80: HTTP
+	443: HTTPS
+
+Modem: Modulator-demodulator
+	Hardware que converte dados em um formato que possa ser transmitido de um computador para outro e lido por outro.
+
+Roteador: Aparelho que distribui internet para um ou mais dispositivos de uma rede, pode fazer a comunicação entre redes, pode ser "burro".
+
+Switches: Distribui internet para um ou mais dispositivos de uma rede, criado para ser "inteligente".
+
+
+**Celular, internet e outros dispositivos**
+
+Dados móveis: 
+
+Wi-fi:  IEEE 802.11: 2,4 GHz, 2Mbps
+	IEEE 802.11a: 5 GHz, 54Mbps
+	IEEE 802.11b: 2,4 GHz, 11Mbps (diminuição de interferência)
+	IEEE 802.11g: 2,4 GHz, 54Mbps
+	IEEE 802.11n: 2,4 GHz / 5Ghz, 150-600Mbps
+
+	Segurança: WEP chaves de 64 bits e de 128 bites
+			WPA: chave trocada periodicamente
+			WPA2 (AES) (802.11i): mas segurança e processamento.
+
+
+Bluetooth: Conexão ponta a ponta. Existem 3 classes.
+
+	
+
+**Browser, sites, aplicativos e webserver**
+
+Browser:Sabe identificar várias LP, linguagens de marcação e conteúdo multimedia. 
+	Hoje, os browsers fazem muito mais que isso: existem plug-ins, ou add-ons, que ajudam na navegação.
+	Cache e cookies.
+	
+	Página estática: Que não tenha movimentação  na página.
+
+	Página dinâmica: Que tem movimentação na página, partes independentes do site.
+
+Site: Página da internet, diversos propósitos, podem ser feitas em diversas LP, D/XHTML caindo em desuso (D=Dinamic).
+Aplicativo: Um software que é executado no navegador.
+	    Um aplicativo de celular, muitas vezes, nada mais é do que uma espécie de navegador.
+	    Quase não existe mais diferença entre site e aplicativos.
+	    Diferença terminológica que está sumindo é entre program/software e aplicativo.
+
+E-commerce: Comércio eletrônico. Sistema de compra e venda com sistema de pagamento, podendo ser o gerenciamento externo para o pagamento.
+
+
+**Web - Server**
+
+Existem 2 tipos: Estático e dinâmio
+	Estático é um servidor físico onde são armazenados arquivos, software e banco de dados.
+	Dinâmico se refere a softwares que estão presentes no servidor físico.
+		Junta tudo: arquivos, aplicações e banco de dados.
+		O site precisa de um servidor para ser acessado.
+	Web-service: Interface disponivel para fazer requisições e consultas em banco de dados inacessível (governo,correios). Tente encontrar 
+	na internet como se dá o acesso aos web-services dos correios e do governo para poder visualizar por exemplo, buscar os dados de um CEP e os dados sobre os estudantes.
